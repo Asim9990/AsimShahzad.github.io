@@ -26,10 +26,6 @@ if(primaryNav&&!primaryNav.querySelector('a[href="#leadership"]')){
 const heroLede=document.querySelector('.hero-lede');
 if(heroLede){
   heroLede.innerHTML='Founder & CEO of <strong>Digitals Prime</strong>, working at the intersection of <strong>SEO, AI automation, digital growth, web technology and youth skills development</strong> — with a vision to expand digital opportunity, entrepreneurship and innovation for Pakistan\'s youth.';
-  const youthBadge=document.createElement('div');
-  youthBadge.className='hero-youth-badge';
-  youthBadge.textContent='Youth Leadership · Digital Inclusion · National Development';
-  heroLede.insertAdjacentElement('afterend',youthBadge);
 }
 const portraitFocus=document.querySelector('.portrait-card.bottom strong');
 if(portraitFocus) portraitFocus.textContent='Leadership × Technology × Education';
