@@ -1,3 +1,14 @@
+const themeStyle=document.createElement('link');
+themeStyle.rel='stylesheet';
+themeStyle.href='theme.css';
+document.head.appendChild(themeStyle);
+
+const heroPortrait=document.querySelector('.portrait-shell>img');
+if(heroPortrait){
+  heroPortrait.src='assets/profile.svg';
+  heroPortrait.alt='Muhammad Asim Shahzad';
+}
+
 const leadershipStyle=document.createElement('link');
 leadershipStyle.rel='stylesheet';
 leadershipStyle.href='leadership.css';
